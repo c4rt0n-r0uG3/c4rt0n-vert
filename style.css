@@ -8,8 +8,8 @@ body {
 
 /* Bandeau de bienvenue */
 .welcome-banner {
-    background-color: #6C63FF; /* Bleu-violet accessible */
-    color: white;
+    background-color: #545273; /* Bleu-violet accessible */
+    color: #d4d3da;
     text-align: right;
     padding: 15px 20px;
 }
@@ -30,28 +30,28 @@ body {
     justify-content: left;
     background-color: #f8f9fa;
     padding: 5px 0; /* Espacement vertical réduit */
-    border-bottom: 2px solid #6C63FF;
+    border-bottom: 2px solid #2a294d;
     margin-bottom: -2px; /* Ligne plus proche des onglets */
 }
 
 .menu a {
     text-decoration: none;
-    color: #6C63FF;
+    color: #2a294d;
     font-size: 1.2em;
     font-weight: bold;
     margin: 0 10px;
-    padding: 6px 1px;
+    padding: 6px 5px;
     border-radius: 1px;
     transition: background-color 0.3s, color 0.3s;
 }
 
 .menu a:hover {
-    background-color: #6C63FF;
+    background-color:#2a294d;
     color: white;
 }
 
 .menu a:active {
-    background-color: #4A47A3;
+    background-color: #2a294d;
 }
 
 /* Article principal */
