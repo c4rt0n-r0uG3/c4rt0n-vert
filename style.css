@@ -1,6 +1,6 @@
 /* Couleur de fond générale */
 body {
-    background: linear-gradient(to bottom, #ECECFF, #9693cc); /* Dégradé bleu clair vers bleu plus foncé */
+    background: linear-gradient(to bottom, #ECECFF, #adabdb); /* Dégradé bleu clair vers bleu plus foncé */
     font-family: 'Avenir', Arial, Helvetica, sans-serif; /* Police Avenir */
     margin: 0;
     padding: 0;
