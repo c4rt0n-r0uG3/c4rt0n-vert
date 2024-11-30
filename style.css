@@ -1,19 +1,27 @@
+/* Couleur de fond générale */
+body {
+    background-color: #ECECFF; /* Teinte très claire du bleu-violet */
+    font-family: 'Avenir', sans-serif; /* Police Avenir */
+    margin: 0;
+    padding: 0;
+}
+
 /* Bandeau de bienvenue */
 .welcome-banner {
     background-color: #6C63FF; /* Bleu-violet accessible */
     color: white;
     text-align: center;
-    padding: 15px 20px; /* Moins d'espace vertical */
+    padding: 15px 20px;
 }
 
 .welcome-banner h1 {
-    font-size: 2em; /* Taille de police réduite */
+    font-size: 2em;
     margin: 0;
 }
 
 .welcome-banner p {
-    font-size: 1em; /* Taille de police plus discrète */
-    margin: 5px 0 0; /* Espacement réduit */
+    font-size: 1em;
+    margin: 5px 0 0;
 }
 
 /* Menu horizontal */
@@ -21,8 +29,9 @@
     display: flex;
     justify-content: center;
     background-color: #f8f9fa;
-    padding: 10px 0;
+    padding: 5px 0; /* Espacement vertical réduit */
     border-bottom: 2px solid #6C63FF;
+    margin-bottom: -2px; /* Ligne plus proche des onglets */
 }
 
 .menu a {
@@ -50,6 +59,9 @@
     padding: 20px;
     max-width: 800px;
     margin: 20px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .article h2 {
