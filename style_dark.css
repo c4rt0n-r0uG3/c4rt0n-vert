@@ -5,11 +5,34 @@ body {
     margin: 0;
     padding: 0;
 }
+/* Style général des liens */
+a {
+    text-decoration: none; /* Pas de soulignement */
+    color: inherit; /* Même couleur que le texte environnant */
+}
+
+/* Empêche le changement de couleur pour les liens visités */
+a:visited {
+    color: inherit;
+}
+
+/* Ajout d'un effet visuel au survol pour signaler qu'il s'agit d'un lien */
+a:hover {
+    text-decoration: underline; /* Facultatif, peut être une autre propriété */
+    opacity: 0.8; /* Légère transparence au survol */
+}
+
+/* Ajout pour les liens actifs */
+a:active {
+    opacity: 0.7; /* Encore plus de transparence quand on clique */
+}
+
 
 /* Bandeau de bienvenue */
 .welcome-banner {
-    background-color: #000000; /* Bleu-violet accessible */
-    color: #d4d3da;
+    background-color: #000000; /* noir */
+    font-family: 'Avenir', Arial, Helvetica, sans-serif; /* Police Avenir */
+    color: #625d7b;
     text-align: right;
     padding: 15px 20px;
 }
@@ -28,7 +51,7 @@ body {
 .menu {
     display: flex;
     justify-content: left;
-    background-color: #9594af;
+    background-color: #43434d;
     padding: 5px 0; /* Espacement vertical réduit */
     border-bottom: 2px solid #2a294d;
     margin-bottom: -2px; /* Ligne plus proche des onglets */
@@ -37,7 +60,7 @@ body {
 .menu a {
     text-decoration: none;
     color: #2a294d;
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: bold;
     margin: 0 10px;
     padding: 6px 5px;

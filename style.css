@@ -5,6 +5,27 @@ body {
     margin: 0;
     padding: 0;
 }
+/* Style général des liens */
+a {
+    text-decoration: none; /* Pas de soulignement */
+    color: inherit; /* Même couleur que le texte environnant */
+}
+
+/* Empêche le changement de couleur pour les liens visités */
+a:visited {
+    color: inherit;
+}
+
+/* Ajout d'un effet visuel au survol pour signaler qu'il s'agit d'un lien */
+a:hover {
+    text-decoration: underline; /* Facultatif, peut être une autre propriété */
+    opacity: 0.8; /* Légère transparence au survol */
+}
+
+/* Ajout pour les liens actifs */
+a:active {
+    opacity: 0.7; /* Encore plus de transparence quand on clique */
+}
 
 /* Bandeau de bienvenue */
 .welcome-banner {
