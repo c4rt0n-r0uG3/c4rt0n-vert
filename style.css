@@ -1,6 +1,6 @@
 /* Couleur de fond générale */
 body {
-    background: linear-gradient(to bottom, #ECECFF, #adabdb); /* Dégradé bleu clair vers bleu plus foncé */
+    background: linear-gradient(to bottom, #ECECFF, #6b6a80); /* Dégradé bleu clair vers bleu plus foncé */
     font-family: 'Avenir', Arial, Helvetica, sans-serif; /* Police Avenir */
     margin: 0;
     padding: 0;
@@ -28,7 +28,7 @@ body {
 .menu {
     display: flex;
     justify-content: left;
-    background-color: #f8f9fa;
+    background-color: #9594af;
     padding: 5px 0; /* Espacement vertical réduit */
     border-bottom: 2px solid #2a294d;
     margin-bottom: -2px; /* Ligne plus proche des onglets */
