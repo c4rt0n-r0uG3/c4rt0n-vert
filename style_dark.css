@@ -38,7 +38,7 @@ a:active {
 }
 
 .welcome-banner h1 {
-    font-size: 2em;
+    font-size: 1.5em;
     margin: 0;
 }
 
@@ -53,6 +53,7 @@ a:active {
     justify-content: left;
     background-color: #43434d;
     padding: 5px 0; /* Espacement vertical réduit */
+    border-top: 2px solid #2a294d;
     border-bottom: 2px solid #2a294d;
     margin-bottom: -2px; /* Ligne plus proche des onglets */
 }
@@ -63,7 +64,7 @@ a:active {
     font-size: 1em;
     font-weight: bold;
     margin: 0 10px;
-    padding: 6px 5px;
+    padding: 10px 10px;
     border-radius: 1px;
     transition: background-color 0.3s, color 0.3s;
 }
