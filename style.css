@@ -1,7 +1,7 @@
 /* Couleur de fond générale */
 body {
-    background-color: #ECECFF; /* Teinte très claire du bleu-violet */
-    font-family: 'Avenir', sans-serif; /* Police Avenir */
+    background: linear-gradient(to bottom, #ECECFF, #9693cc); /* Dégradé bleu clair vers bleu plus foncé */
+    font-family: 'Avenir', Arial, Helvetica, sans-serif; /* Police Avenir */
     margin: 0;
     padding: 0;
 }
@@ -39,7 +39,7 @@ body {
     color: #6C63FF;
     font-size: 1.2em;
     font-weight: bold;
-    margin: 0 10px;
+    margin: 0 5px;
     padding: 1px 1px;
     border-radius: 1px;
     transition: background-color 0.3s, color 0.3s;
@@ -56,10 +56,10 @@ body {
 
 /* Article principal */
 .article {
+    background-color: white;
     padding: 20px;
     max-width: 800px;
     margin: 20px auto;
-    background-color: white;
     border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
