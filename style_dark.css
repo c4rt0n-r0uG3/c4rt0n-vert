@@ -1,0 +1,90 @@
+/* Couleur de fond générale */
+body {
+    background: linear-gradient(to bottom, #0d0d0d, #6b6a80); /* Dégradé bleu clair vers bleu plus foncé */
+    font-family: 'Courier New', sans-serif; /* Police Avenir */
+    margin: 0;
+    padding: 0;
+}
+
+/* Bandeau de bienvenue */
+.welcome-banner {
+    background-color: #000000; /* noir */
+    color: #46454d;
+    text-align: right;
+    padding: 15px 20px;
+}
+
+.welcome-banner h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.welcome-banner p {
+    font-size: 1em;
+    margin: 5px 0 0;
+}
+
+/* Menu horizontal */
+.menu {
+    display: flex;
+    justify-content: left;
+    background-color: #9594af;
+    padding: 5px 0; /* Espacement vertical réduit */
+    border-bottom: 2px solid #2a294d;
+    margin-bottom: -2px; /* Ligne plus proche des onglets */
+}
+
+.menu a {
+    text-decoration: none;
+    color: #2a294d;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0 10px;
+    padding: 6px 5px;
+    border-radius: 1px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.menu a:hover {
+    background-color:#2a294d;
+    color: white;
+}
+
+.menu a:active {
+    background-color: #2a294d;
+}
+
+/* Article principal */
+.article {
+    background-color: white;
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.article h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.article h3 {
+    font-size: 1.5em;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.article p {
+    font-size: 1.1em;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 15px;
+}
