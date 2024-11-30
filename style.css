@@ -1,41 +1,33 @@
-/* Styles généraux */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-}
-
 /* Bandeau de bienvenue */
 .welcome-banner {
     background-color: #6C63FF; /* Bleu-violet accessible */
     color: white;
     text-align: center;
-    padding: 10px 20px;
+    padding: 15px 20px; /* Moins d'espace vertical */
 }
 
 .welcome-banner h1 {
-    font-size: 2.5em;
+    font-size: 2em; /* Taille de police réduite */
     margin: 0;
 }
 
 .welcome-banner p {
-    font-size: 1.2em;
-    margin: 10px 0 0;
+    font-size: 1em; /* Taille de police plus discrète */
+    margin: 5px 0 0; /* Espacement réduit */
 }
 
 /* Menu horizontal */
 .menu {
     display: flex;
     justify-content: center;
-    background-color: #f8f9fa; /* Couleur de fond neutre */
+    background-color: #f8f9fa;
     padding: 10px 0;
-    border-bottom: 2px solid #6C63FF; /* Ligne de séparation */
+    border-bottom: 2px solid #6C63FF;
 }
 
 .menu a {
     text-decoration: none;
-    color: #6C63FF; /* Bleu-violet assorti à la bannière */
+    color: #6C63FF;
     font-size: 1.2em;
     font-weight: bold;
     margin: 0 15px;
@@ -45,12 +37,12 @@ body {
 }
 
 .menu a:hover {
-    background-color: #6C63FF; /* Arrière-plan violet au survol */
-    color: white; /* Texte blanc au survol */
+    background-color: #6C63FF;
+    color: white;
 }
 
 .menu a:active {
-    background-color: #4A47A3; /* Couleur légèrement plus sombre pour l'état actif */
+    background-color: #4A47A3;
 }
 
 /* Article principal */
