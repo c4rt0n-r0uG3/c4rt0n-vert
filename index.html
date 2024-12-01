@@ -20,13 +20,31 @@
         <a href="c4rt0n.html">C4RT0N</a>
     </div>
 
+
+    <script defer>
+        // Liste des pages secrètes
+        const secretPages = [
+            "lys.html",
+            "apesanteur.html",
+            "c4rt0n.html"
+        ];
+
+        // Fonction pour rediriger vers une page aléatoire
+        function openRandomPage() {
+            const randomIndex = Math.floor(Math.random() * secretPages.length);
+            const randomPage = secretPages[randomIndex];
+            window.location.href = randomPage; // Redirige vers la page choisie
+        }
+    </script>
     <!-- Article principal -->
     <div class="article">
         <h2>"Je t'assure, j'ai pas tout essayé"</h2>
         <h3></h3>
         <p>
-            Geodis acceptera jamais, tu délires...
+            Geodis acceptera jamais, tu délires...<br>
+            <a href="#" id="random-link" onclick="openRandomPage()">On va toujours quelque part...</a>
         </p>
+        
         <img src="explosive.jpg" alt="Envoi postal hasardeux">
     </div>
 </body>
